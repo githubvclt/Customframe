@@ -1,19 +1,14 @@
 {
-    "name": "administrator/testcomposer",
+    "name": "githubvclt/customframe",
+    "description": "Custom simple MVC framework",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "chunyugithub",
             "email": "953157989@qq.com"
         }
     ],
-    "autoload": {
-        "files": [
-            "core/functions.php"
-        ],
-    	"psr-4": {
-    		"web\\" : "web",
-    		"core\\": "core"
-    	}
-    },
+    "minimum-stability": "dev",
     "require": {}
 }
