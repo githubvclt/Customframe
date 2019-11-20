@@ -1,0 +1,19 @@
+{
+    "name": "administrator/testcomposer",
+    "authors": [
+        {
+            "name": "chunyugithub",
+            "email": "953157989@qq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
+    	"psr-4": {
+    		"web\\" : "web",
+    		"core\\": "core"
+    	}
+    },
+    "require": {}
+}
